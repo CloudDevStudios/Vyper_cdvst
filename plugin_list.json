@@ -1,0 +1,323 @@
+{
+  "plugins": [
+    {
+      "name": "UI Customizer",
+      "description": "Allows customization of the OctoPrint interface, adding flexibility to adapt the layout and visuals to fit your workflow.",
+      "github_url": "https://github.com/LazeMSS/OctoPrint-UICustomizer",
+      "install_command": "~/oprint/bin/pip install https://github.com/LazeMSS/OctoPrint-UICustomizer/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/uicustomizer/",
+      "category": "UI Enhancement",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.4+",
+      "tags": ["UI", "Customization"]
+    },
+    {
+      "name": "Navbar Temp",
+      "description": "Displays hotend, bed, and SoC temperatures directly in the navbar, helping you keep track of thermal parameters easily.",
+      "github_url": "https://github.com/imrahil/OctoPrint-NavbarTemp",
+      "install_command": "~/oprint/bin/pip install https://github.com/imrahil/OctoPrint-NavbarTemp/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/navbartemp/",
+      "category": "Temperature Monitoring",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.3+",
+      "tags": ["Temperature", "Monitoring"]
+    },
+    {
+      "name": "Slicer Thumbnails",
+      "description": "Displays image thumbnails of G-code files directly within OctoPrint's file manager, making it easier to manage and select prints.",
+      "github_url": "https://github.com/jneilliii/OctoPrint-SlicerThumbnails",
+      "install_command": "~/oprint/bin/pip install https://github.com/jneilliii/OctoPrint-SlicerThumbnails/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/slicerthumbnails/",
+      "category": "File Management",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.4+",
+      "tags": ["File Management", "Thumbnails"]
+    },
+    {
+      "name": "Firmware Updater",
+      "description": "Updates your printer firmware directly from OctoPrint, eliminating the need for specialized flashing tools.",
+      "github_url": "https://github.com/OctoPrint/OctoPrint-FirmwareUpdater",
+      "install_command": "~/oprint/bin/pip install https://github.com/OctoPrint/OctoPrint-FirmwareUpdater/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/firmwareupdater/",
+      "category": "Firmware Management",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.3+",
+      "tags": ["Firmware", "Update"]
+    },
+    {
+      "name": "Exclude Region",
+      "description": "Allows selective cancellation of regions during printing, helping save on filament if only a part of the print fails.",
+      "github_url": "https://github.com/bradcfisher/OctoPrint-ExcludeRegion",
+      "install_command": "~/oprint/bin/pip install https://github.com/bradcfisher/OctoPrint-ExcludeRegion/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/excluderegion/",
+      "category": "Print Management",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.4+",
+      "tags": ["Print Management", "Region Exclude"]
+    },
+    {
+      "name": "Preheat Button",
+      "description": "Adds buttons to quickly preheat the bed and hotend to desired temperatures, making it easy to prepare for a print.",
+      "github_url": "https://github.com/jneilliii/OctoPrint-Preheat",
+      "install_command": "~/oprint/bin/pip install https://github.com/jneilliii/OctoPrint-Preheat/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/preheat/",
+      "category": "Temperature Control",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.4+",
+      "tags": ["Temperature", "Preheat"]
+    },
+    {
+      "name": "Fullscreen Webcam",
+      "description": "Provides an option to view your webcam feed in fullscreen mode for better monitoring of the print.",
+      "github_url": "https://github.com/jneilliii/OctoPrint-FullScreenWebcam",
+      "install_command": "~/oprint/bin/pip install https://github.com/jneilliii/OctoPrint-FullScreenWebcam/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/fullscreenwebcam/",
+      "category": "Monitoring",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.4+",
+      "tags": ["Monitoring", "Webcam"]
+    },
+    {
+      "name": "Creality 2x Temperature Reporting Fix",
+      "description": "Fixes temperature reporting issues for newer Creality printer models, such as Ender-3 Pro v2.",
+      "github_url": "https://github.com/SimplyPrint/Creality-2x-Temperature-Fix",
+      "install_command": "~/oprint/bin/pip install https://github.com/SimplyPrint/Creality-2x-Temperature-Fix/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/creality2x/",
+      "category": "Temperature Control",
+      "dependencies": [],
+      "compatibility": "Creality printers",
+      "tags": ["Creality", "Temperature Fix"]
+    },
+    {
+      "name": "Simple Emergency Stop",
+      "description": "Adds an emergency stop button in the navbar to immediately stop the printer in case of critical issues.",
+      "github_url": "https://github.com/dmp1ce/OctoPrint-SimpleEmergencyStop",
+      "install_command": "~/oprint/bin/pip install https://github.com/dmp1ce/OctoPrint-SimpleEmergencyStop/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/simpleemergencystop/",
+      "category": "Safety",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.4+",
+      "tags": ["Safety", "Emergency"]
+    },
+    {
+      "name": "OctoLapse",
+      "description": "Creates smooth time-lapse videos by moving the print head out of the way before capturing each image.",
+      "github_url": "https://github.com/FormerLurker/Octolapse",
+      "install_command": "~/oprint/bin/pip install https://github.com/FormerLurker/Octolapse/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/octolapse/",
+      "category": "Time-Lapse",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.3+",
+      "tags": ["Time-Lapse", "Video"]
+    },
+    {
+      "name": "OctoPrint-PrintTimeGenius",
+      "description": "Provides more accurate print time estimates by using machine learning to learn how your printer actually prints.",
+      "github_url": "https://github.com/eyal0/OctoPrint-PrintTimeGenius",
+      "install_command": "~/oprint/bin/pip install https://github.com/eyal0/OctoPrint-PrintTimeGenius/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/printtimegenius/",
+      "category": "Print Optimization",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.3+",
+      "tags": ["Print Time", "Optimization"]
+    },
+    {
+      "name": "OctoPrint-BLTouch",
+      "description": "Integrates BLTouch sensor support for automatic bed leveling.",
+      "github_url": "https://github.com/jneilliii/OctoPrint-BLTouch",
+      "install_command": "~/oprint/bin/pip install https://github.com/jneilliii/OctoPrint-BLTouch/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/bltouch/",
+      "category": "Bed Leveling",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.3+",
+      "tags": ["Bed Leveling", "BLTouch"]
+    },
+    {
+      "name": "Camera Settings",
+      "description": "Provides more camera control options, including brightness, contrast, and other adjustments.",
+      "github_url": "https://github.com/jneilliii/OctoPrint-CameraSettings",
+      "install_command": "~/oprint/bin/pip install https://github.com/jneilliii/OctoPrint-CameraSettings/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/camerasettings/",
+      "category": "Monitoring",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.3+",
+      "tags": ["Camera", "Settings"]
+    },
+    {
+      "name": "OctoPrint-CancelObject",
+      "description": "Allows users to cancel specific parts of a print if only a portion fails, preserving the rest of the job.",
+      "github_url": "https://github.com/paukstelis/OctoPrint-Cancelobject",
+      "install_command": "~/oprint/bin/pip install https://github.com/paukstelis/OctoPrint-Cancelobject/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/cancelobject/",
+      "category": "Print Management",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.4+",
+      "tags": ["Cancel", "Print Management"]
+    },
+    {
+      "name": "UI Customizer",
+      "description": "Allows customization of the OctoPrint interface, adding flexibility to adapt the layout and visuals to fit your workflow.",
+      "github_url": "https://github.com/LazeMSS/OctoPrint-UICustomizer",
+      "install_command": "~/oprint/bin/pip install https://github.com/LazeMSS/OctoPrint-UICustomizer/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/uicustomizer/",
+      "category": "UI Enhancement",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.4+",
+      "tags": ["UI", "Customization"]
+    },
+    {
+      "name": "Navbar Temp",
+      "description": "Displays hotend, bed, and SoC temperatures directly in the navbar, helping you keep track of thermal parameters easily.",
+      "github_url": "https://github.com/imrahil/OctoPrint-NavbarTemp",
+      "install_command": "~/oprint/bin/pip install https://github.com/imrahil/OctoPrint-NavbarTemp/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/navbartemp/",
+      "category": "Temperature Monitoring",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.3+",
+      "tags": ["Temperature", "Monitoring"]
+    },
+    {
+      "name": "Slicer Thumbnails",
+      "description": "Displays image thumbnails of G-code files directly within OctoPrint's file manager, making it easier to manage and select prints.",
+      "github_url": "https://github.com/jneilliii/OctoPrint-SlicerThumbnails",
+      "install_command": "~/oprint/bin/pip install https://github.com/jneilliii/OctoPrint-SlicerThumbnails/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/slicerthumbnails/",
+      "category": "File Management",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.4+",
+      "tags": ["File Management", "Thumbnails"]
+    },
+    {
+      "name": "Firmware Updater",
+      "description": "Updates your printer firmware directly from OctoPrint, eliminating the need for specialized flashing tools.",
+      "github_url": "https://github.com/OctoPrint/OctoPrint-FirmwareUpdater",
+      "install_command": "~/oprint/bin/pip install https://github.com/OctoPrint/OctoPrint-FirmwareUpdater/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/firmwareupdater/",
+      "category": "Firmware Management",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.3+",
+      "tags": ["Firmware", "Update"]
+    },
+    {
+      "name": "Exclude Region",
+      "description": "Allows selective cancellation of regions during printing, helping save on filament if only a part of the print fails.",
+      "github_url": "https://github.com/bradcfisher/OctoPrint-ExcludeRegion",
+      "install_command": "~/oprint/bin/pip install https://github.com/bradcfisher/OctoPrint-ExcludeRegion/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/excluderegion/",
+      "category": "Print Management",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.4+",
+      "tags": ["Print Management", "Region Exclude"]
+    },
+    {
+      "name": "Preheat Button",
+      "description": "Adds buttons to quickly preheat the bed and hotend to desired temperatures, making it easy to prepare for a print.",
+      "github_url": "https://github.com/jneilliii/OctoPrint-Preheat",
+      "install_command": "~/oprint/bin/pip install https://github.com/jneilliii/OctoPrint-Preheat/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/preheat/",
+      "category": "Temperature Control",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.4+",
+      "tags": ["Temperature", "Preheat"]
+    },
+    {
+      "name": "Fullscreen Webcam",
+      "description": "Provides an option to view your webcam feed in fullscreen mode for better monitoring of the print.",
+      "github_url": "https://github.com/jneilliii/OctoPrint-FullScreenWebcam",
+      "install_command": "~/oprint/bin/pip install https://github.com/jneilliii/OctoPrint-FullScreenWebcam/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/fullscreenwebcam/",
+      "category": "Monitoring",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.4+",
+      "tags": ["Monitoring", "Webcam"]
+    },
+    {
+      "name": "Creality 2x Temperature Reporting Fix",
+      "description": "Fixes temperature reporting issues for newer Creality printer models, such as Ender-3 Pro v2.",
+      "github_url": "https://github.com/SimplyPrint/Creality-2x-Temperature-Fix",
+      "install_command": "~/oprint/bin/pip install https://github.com/SimplyPrint/Creality-2x-Temperature-Fix/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/creality2x/",
+      "category": "Temperature Control",
+      "dependencies": [],
+      "compatibility": "Creality printers",
+      "tags": ["Creality", "Temperature Fix"]
+    },
+    {
+      "name": "Simple Emergency Stop",
+      "description": "Adds an emergency stop button in the navbar to immediately stop the printer in case of critical issues.",
+      "github_url": "https://github.com/dmp1ce/OctoPrint-SimpleEmergencyStop",
+      "install_command": "~/oprint/bin/pip install https://github.com/dmp1ce/OctoPrint-SimpleEmergencyStop/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/simpleemergencystop/",
+      "category": "Safety",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.4+",
+      "tags": ["Safety", "Emergency"]
+    },
+    {
+      "name": "OctoLapse",
+      "description": "Creates smooth time-lapse videos by moving the print head out of the way before capturing each image.",
+      "github_url": "https://github.com/FormerLurker/Octolapse",
+      "install_command": "~/oprint/bin/pip install https://github.com/FormerLurker/Octolapse/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/octolapse/",
+      "category": "Time-Lapse",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.3+",
+      "tags": ["Time-Lapse", "Video"]
+    },
+    {
+      "name": "OctoPrint-PrintTimeGenius",
+      "description": "Provides more accurate print time estimates by using machine learning to learn how your printer actually prints.",
+      "github_url": "https://github.com/eyal0/OctoPrint-PrintTimeGenius",
+      "install_command": "~/oprint/bin/pip install https://github.com/eyal0/OctoPrint-PrintTimeGenius/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/printtimegenius/",
+      "category": "Print Optimization",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.3+",
+      "tags": ["Print Time", "Optimization"]
+    },
+    {
+      "name": "OctoPrint-BLTouch",
+      "description": "Integrates BLTouch sensor support for automatic bed leveling.",
+      "github_url": "https://github.com/jneilliii/OctoPrint-BLTouch",
+      "install_command": "~/oprint/bin/pip install https://github.com/jneilliii/OctoPrint-BLTouch/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/bltouch/",
+      "category": "Bed Leveling",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.3+",
+      "tags": ["Bed Leveling", "BLTouch"]
+    },
+    {
+      "name": "Camera Settings",
+      "description": "Provides more camera control options, including brightness, contrast, and other adjustments.",
+      "github_url": "https://github.com/jneilliii/OctoPrint-CameraSettings",
+      "install_command": "~/oprint/bin/pip install https://github.com/jneilliii/OctoPrint-CameraSettings/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/camerasettings/",
+      "category": "Monitoring",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.3+",
+      "tags": ["Camera", "Settings"]
+    },
+    {
+      "name": "OctoPrint-CancelObject",
+      "description": "Allows users to cancel specific parts of a print if only a portion fails, preserving the rest of the job.",
+      "github_url": "https://github.com/paukstelis/OctoPrint-Cancelobject",
+      "install_command": "~/oprint/bin/pip install https://github.com/paukstelis/OctoPrint-Cancelobject/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/cancelobject/",
+      "category": "Print Management",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.4+",
+      "tags": ["Cancel", "Print Management"]
+    },
+    {
+      "name": "Resource Monitor",
+      "description": "Monitors the resource usage of the OctoPrint instance, including CPU and RAM usage.",
+      "github_url": "https://github.com/Renaud11232/OctoPrint-ResourceMonitor",
+      "install_command": "~/oprint/bin/pip install https://github.com/Renaud11232/OctoPrint-ResourceMonitor/archive/master.zip",
+      "documentation": "https://plugins.octoprint.org/plugins/resourcemonitor/",
+      "category": "Monitoring",
+      "dependencies": [],
+      "compatibility": "OctoPrint 1.4+",
+      "tags": ["Resource", "Monitoring"]
+    }
+  ]
+}
